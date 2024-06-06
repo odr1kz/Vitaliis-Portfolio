@@ -727,7 +727,7 @@ span {
         padding: 2rem 3%;
     }
     .article2{
-        display: block;
+        display: relative;
     }
 }
 
