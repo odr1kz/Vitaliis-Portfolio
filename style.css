@@ -726,6 +726,9 @@ span {
     .footer {
         padding: 2rem 3%;
     }
+    article2{
+        display: block;
+    }
 }
 
 @media screen and (max-width:1380px) {
