@@ -499,9 +499,9 @@ span {
 }
 
 .skills {
-    padding: 100px 15px;
-    height: 2300px;
     background: var(--second-bg-color);
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .experience {
@@ -1048,9 +1048,11 @@ span {
     font-size: 1.6rem;
 }
 
-.section{
-    display: flex;
-    flex-wrap: wrap;
+.sub-title{
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 70px;
+    padding-top: 30px;
 }
 
 .container1{
@@ -1073,12 +1075,12 @@ span {
 }
 
 .Technical-bars .bar{
-    margin-top: 40px 0;
+    margin: 40px 0;
 }
 
 .Technical-bars .bar:first-child{
     margin-top: 0;
-}
+}   
 
 .Technical-bars .bar:last-child{
     margin-bottom: 0;
@@ -1122,22 +1124,22 @@ span {
     transform-origin: left;
 }
 
-.progress-line.html span {
+.progress-line.html span{
     width: 90%;
 }
 
-.progress-line.css span {
-    width: 60%;
+.progress-line.css span{
+    width: 70%;
 }
 
-.progress-line.javascript span {
+.progress-line.javascript span{
     width: 85%;
 }
 
-.progress-line.python span {
-    width: 50%;
-}
-
+.progress-line.python span{
+    width: 50%; 
+} 
+ 
 .progress-line span::after{
     position: absolute;
     padding: 1px 8px;
@@ -1151,20 +1153,20 @@ span {
     opacity: 0;
 }
 
-.progress-line.html span::after {
-    content: 90%;
+.progress-line.html span::after{
+    content: "90%";
 }
 
-.progress-line.css span::after {
-    content: 60%;
+.progress-line.css span::after{
+    content: "70%";
 }
 
-.progress-line.javascript ::after {
-    content: 85%;
+.progress-line.javascript span::after{
+    content: "85%";
 }
 
-.progress-line.python span::after {
-    content: 90%;
+.progress-line.python span::after{
+    content: "50%";
 }
 
 .progress-line span::before{
@@ -1175,7 +1177,7 @@ span {
     border: 7px solid transparent;
     border-bottom-width: 0px;
     border-right-width: 0px;
-    border-top-color: black;
+    border-top-color: rgb(0, 0, 0);
     top: -10px;
     right: 0;
     animation: showText 0.5s 1.5s linear forwards;
@@ -1224,7 +1226,7 @@ span {
 
 @keyframes animate-bar{
     100%{
-        stroke-dashoffset: -1s;
+        stroke-dashoffset: -1;
     }
 }
 
@@ -1274,6 +1276,7 @@ span {
     font-size: 17px;
     font-weight: 500;
     animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
 }
 
 .radial-bar .text {
@@ -1282,7 +1285,7 @@ span {
     text-align: center;
     left: 50%;
     bottom: -5px;
-    transform: translateX(-50px);
+    transform: translateX(-50%);
     font-size: 17px;
     font-weight: 500;
     animation: showText 0.5s 1s linear forwards;
