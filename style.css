@@ -500,7 +500,6 @@ span {
 
 .skills {
     background: var(--second-bg-color);
-    display: flex;
     flex-wrap: wrap;
 }
 
@@ -841,7 +840,6 @@ span {
         border-bottom: 2px solid var(--main-color);
         display: none;
     }
-
     .navbar.active{
         display: block;
     }
@@ -1056,10 +1054,17 @@ span {
 }
 
 .container1{
-    width: 600px;
-    height: 500px;
-    padding: 75px 90px;
-    margin-left: 120px;
+    width: 50%;
+    height: auto;
+    padding: auto;
+    float: left;
+}
+
+.container2{
+    width: 50%;
+    height: auto;
+    padding: auto;
+    float: right;
 }
 
 .heading3{
