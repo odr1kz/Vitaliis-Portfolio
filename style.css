@@ -504,7 +504,14 @@ span {
 
 .skills {
     background: var(--second-bg-color);
-    flex-wrap: wrap;
+    min-height: 100vh;
+    padding: 12rem 12% 10rem;
+}
+
+@media (max-width:991px){
+    .skills {
+        font-size: 1000px;
+    }
 }
 
 .experience {
@@ -1263,6 +1270,94 @@ span {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
+}
+
+@media (max-width:1250px){
+    .radial-bars{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width:991px){
+    .radial-bars{
+        width: 70%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width:900px){
+    .radial-bars{
+        width: 75%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width:850px){
+    .radial-bars{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width:800px){
+    .radial-bars{
+        width: 85%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width:750px){
+    .radial-bars{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width:700px){
+    .radial-bars{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width:650px){
+    .radial-bars{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
 }
 
 .radial-bars .radial-bar{
