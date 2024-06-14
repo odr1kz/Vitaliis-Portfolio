@@ -1074,6 +1074,9 @@ span {
     height: auto;
     padding: auto;
     float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .container2{
@@ -1081,6 +1084,112 @@ span {
     height: auto;
     padding: auto;
     float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width:991px){
+    .container1{
+        width: 90%;
+        margin: auto;
+        float: none;
+        height: auto;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container2{
+        margin-top: 70px;
+        width: 100%;
+        float: none;
+        height: auto;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width:700px){
+    .container1{
+        width: 85%;
+        margin: auto;
+        float: none;
+        height: auto;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width:650px){
+    .container1{
+        width: 84%;
+        margin: auto;
+        float: none;
+        height: auto;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width:600px){
+    .container1{
+        width: 83%;
+        margin: auto;
+        float: none;
+        height: auto;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width:550px){
+    .container1{
+        width: 82%;
+        margin: auto;
+        float: none;
+        height: auto;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width:500px){
+    .container1{
+        width: 81%;
+        margin: auto;
+        float: none;
+        height: auto;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width:418px){
+    .container1{
+        width: 80%;
+        margin: auto;
+        float: none;
+        height: auto;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
 }
 
 .heading3{
@@ -1213,7 +1322,8 @@ span {
 }
 
 .radial-bars{
-    width: 100%;
+    width: 70%;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -1253,7 +1363,7 @@ span {
 }
 
 .path {
-    stroke-width: 10;
+    stroke-width: 15;
     stroke: var(--main-color);
     fill: transparent;
     stroke-dasharray: 502;
@@ -1308,7 +1418,7 @@ span {
     left: 50%;
     bottom: -5px;
     transform: translateX(-50%);
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
     animation: showText 0.5s 1s linear forwards;
     opacity: 0;
