@@ -498,6 +498,10 @@ span {
     background: var(--second-bg-color);
 }
 
+.work {
+    background: var(--second-bg-color);
+}
+
 .skills {
     background: var(--second-bg-color);
     flex-wrap: wrap;
@@ -996,7 +1000,7 @@ span {
     font-size: larger;
 }
 
-.projects{
+.work{
     background: var(--second-bg-color);
 }
 
