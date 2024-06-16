@@ -504,13 +504,13 @@ span {
 
 .skills {
     background: var(--second-bg-color);
-    min-height: 100vh;
+    height: 900px;
     padding: 12rem 12% 10rem;
 }
 
 @media (max-width:991px){
     .skills {
-        font-size: 1000px;
+        height: 1320px;
     }
 }
 
@@ -1122,7 +1122,7 @@ span {
 
 @media (max-width:418px){
     .container1{
-        width: 80%;
+        width: 90%;
         margin: auto;
         float: none;
         height: auto;
