@@ -1,87 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UFT-8">
-        <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-        <title>Vitalii's Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="Images/User.png">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitalii's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="icon" href="Images/User.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-        <h1>FAQ</h1>
+    <header class="header">
+        <a href="#faq.html" class="logo">Vitalii
+        <span>Vynnychenko</span></a>
 
-    <div class="container">
+        <i class='bx bx-menu' id="menu-icon"></i>
 
-        <div class="faq active">
-            <h3 class="faq-title">
-                What is the return policy?
-            </h3>
-            <p class="faq-text">
-                Our return policy allows returns...
-            </p>
-            <button class="faq-toggle">
-                <i class='bx bxs-chevron-down'></i>
-                <i class='bx bx-x'></i>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="aboutme.html">About Me</a>
+            <a href="resume.html">Resume</a>
+            <a href="education.html">Education</a>
+            <a href="work.html">Work</a>
+            <a href="experience.html">Experience</a>
+            <a href="contact.html">Contact</a>
+        </nav>      
+    </header>
+
+<section>
+    <h1 class="title">FAQ's</h1>
+
+    <div class="questions-container">
+        <div class="question">
+            <button>
+                <span>What's the best way to study JavaScript?</span>
+                <i class="fas fa-chevron-down d-arrow"></i>
             </button>
+            <p>Start With An Online Course.An online tutorial is probably the best way to learn JavaScript.If you're serious about learning fast, efficiently and without missing any important information, then you should consider enrolling in an online course.</p>
         </div>
 
-        <div class="faq">
-            <h3 class="faq-title">
-                What is the return policy?
-            </h3>
-            <p class="faq-text">
-                Our return policy allows returns...
-            </p>
-            <button class="faq-toggle">
-                <i class='bx bxs-chevron-down'></i>
-                <i class='bx bx-x'></i>
+        <div class="question">
+            <button>
+                <span>What should I learn after JavaScript / js?</span>
+                <i class="fas fa-chevron-down d-arrow"></i>
             </button>
+            <p>I suggest taking a look at Typescript and learning some popular frontend framework (Angular, React, Vue). If you are interested in backend, take a look at Node. js.</p>
         </div>
 
-        <div class="faq">
-            <h3 class="faq-title">
-                What is the return policy?
-            </h3>
-            <p class="faq-text">
-                Our return policy allows returns...
-            </p>
-            <button class="faq-toggle">
-                <i class='bx bxs-chevron-down'></i>
-                <i class='bx bx-x'></i>
+        <div class="question">
+            <button>
+                <span>Can I get a job after learning JavaScript?</span>
+                <i class="fas fa-chevron-down d-arrow"></i>
             </button>
+            <p>Absolutely! JavaScript is one of the most in-demand programming languages. With proficiency in JavaScript, you can land roles like web developer, front-end developer, and even full-stack developer.</p>
         </div>
 
-        <div class="faq">
-            <h3 class="faq-title">
-                What is the return policy?
-            </h3>
-            <p class="faq-text">
-                Our return policy allows returns...
-            </p>
-            <button class="faq-toggle">
-                <i class='bx bxs-chevron-down'></i>
-                <i class='bx bx-x'></i>
+        <div class="question">
+            <button>
+                <span>How long will it take to learn JavaScript?</span>
+                <i class="fas fa-chevron-down d-arrow"></i>
             </button>
+            <p>It varies! Basics can take a few weeks to a couple of months, but becoming proficient usually takes around 6-12 months of dedicated practice and real-world projects.</p>
         </div>
-
-        <div class="faq">
-            <h3 class="faq-title">
-                What is the return policy?
-            </h3>
-            <p class="faq-text">
-                Our return policy allows returns...
-            </p>
-            <button class="faq-toggle">
-                <i class='bx bxs-chevron-down'></i>
-                <i class='bx bx-x'></i>
-            </button>
-        </div>   
-         
     </div>
 
-        <script src="script.js"></script>
-    </body>
-</html>        
+</section>
+
+<footer class="footer">
+    <div class="social"> 
+        <a href="https://discordapp.com/users/855465434089259018"><i class='bx bxl-discord' ></i></a>
+            <a href="https://www.instagram.com/_.vitasyaaa._/"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://www.youtube.com/@odr1kz-"><i class='bx bxl-youtube' ></i></a>
+            <a href="https://steamcommunity.com/id/onnalka/"><i class='bx bxl-steam' ></i></a>
+            <a href="https://www.twitch.tv/odr1kz__"><i class='bx bxl-twitch' ></i></a>
+    </div>
+
+    <ul class="list"> 
+        <li> 
+            <a href="faq.html">FAQ</a>
+        </li>
+
+        <li> 
+            <a href="aboutme.html">About Me</a>
+        </li>
+
+        <li> 
+            <a href="resume.html">Resume</a>
+        </li>
+
+        <li> 
+            <a href="education.html">Education</a>
+        </li>
+
+        <li> 
+            <a href="work.html">Work</a>
+        </li>
+
+        <li> 
+            <a href="experience.html">Experience</a>
+        </li>
+
+        <li> 
+            <a href="testimonials.html">Testimonials</a>
+        </li>
+
+        <li> 
+            <a href="contact.html">Contact</a>
+        </li>
+    </ul>
+
+    <p class="copyright"> 
+        ©️ Vitalii Vynnychenko | All Rights Reserved
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
