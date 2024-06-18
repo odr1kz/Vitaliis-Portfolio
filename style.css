@@ -805,6 +805,13 @@ span {
         flex-direction: column;
         justify-content: center;
     }
+    .textexperience{
+        align-items: center;
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     .resume-article{
         flex-direction: column;
     }
@@ -1583,4 +1590,19 @@ span {
 
 .background{
     background-color: var(--second-bg-color);
+}
+
+.experienceimg{
+    display: block;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.experiencesize { 
+    max-height: 300px;
+    min-height: 300px;
+    margin-inline-start: 10px;
 }
