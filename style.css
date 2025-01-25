@@ -7,6 +7,7 @@
     outline: none;
     scroll-behavior: smooth;
     font-family: "Poppins", sans-serif;
+    font-family: cursive;
 }
 
 :root {
@@ -17,7 +18,7 @@
 }
 
 html {
-    font-size: 60%;
+    font-size: 65%;
     overflow-x: hidden;
 }
 
@@ -999,7 +1000,7 @@ span {
 }
 
 .textsize {
-    text-align: left;
+    text-align: justify;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -1011,7 +1012,7 @@ span {
 }
 
 .textresume {
-    text-align: left;
+    text-align: justify;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -1023,12 +1024,14 @@ span {
 }
 
 .textres2 {
+    letter-spacing: -1px;
+    font-weight: 900;
     font-size: 23px;
-    margin: left;
+    margin-bottom: 10px;
 }
 
 .textres1 {
-    text-align: left;
+    text-align: justify;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -1062,11 +1065,10 @@ span {
 }
 
 .textme{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 10px;
 }
 
 .textresume{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large;
 }
 
@@ -1101,7 +1103,7 @@ span {
     cursor: pointer;
     box-shadow: 0 0 5px var(--main-color);
     transition: 0.3s ease;
-    height: 500px;
+    height: 550px;
 }
 
 .project-card:hover{
@@ -1163,6 +1165,23 @@ span {
         flex-direction: column;
         justify-content: center;
     }
+    .project-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: var(--bg-color);
+        border: 2px solid var(--main-color);
+        border-radius: 5rem;
+        gap: 2rem;
+        padding: 5rem 2rem;
+        overflow: hidden;
+        cursor: pointer;
+        box-shadow: 0 0 5px var(--main-color);
+        transition: 0.3s ease;
+        height: 500px;
+    }
     .container2{
         margin-top: 70px;
         width: 100%;
@@ -1174,6 +1193,29 @@ span {
         justify-content: center;
         margin-bottom: 60px;
     }
+}
+
+@media (max-width:772px){
+    .project-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: var(--bg-color);
+        border: 2px solid var(--main-color);
+        border-radius: 5rem;
+        gap: 2rem;
+        padding: 5rem 2rem;
+        overflow: hidden;
+        cursor: pointer;
+        box-shadow: 0 0 5px var(--main-color);
+        transition: 0.3s ease;
+        height: 475px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
 }
 
 @media (max-width:418px){
